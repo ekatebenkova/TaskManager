@@ -23,6 +23,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'simple_form'
 gem 'state_machines'
 gem 'state_machines-activerecord'
+gem 'slim-rails'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
@@ -35,7 +36,6 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'factory_bot_rails'
   gem 'rubocop'
-  gem 'slim-rails'
 end
 
 group :development do
